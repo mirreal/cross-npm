@@ -1,0 +1,26 @@
+{
+  "name": "cross-npm",
+  "version": "0.1.0",
+  "description": "cross npm scripts",
+  "bin": {
+    "cross-npm": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node bin/index.js config get registry"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirreal/cross-npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirreal/cross-npm/issues"
+  },
+  "homepage": "https://github.com/mirreal/cross-npm#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.4"
+  }
+}
